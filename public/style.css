@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:  rgb(16, 7, 7);
+    height: 100vh;
+    width: 100vw;
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+}
+.upper
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 63, 63);
+}
+.upper h1
+{
+    border-bottom: 2px solid white;
+    font-family: monospace;
+    color: #0cff0c;
+}
+.upper button
+{
+    border: 2px solid white;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding: 10px 10px;
+}
+.main
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.otherButtons
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 23px;
+}
+.mainicon
+{
+    filter: invert(1);
+}
+.card
+{
+    height: 170px;
+    border: 2px solid black;
+    width: 150px;
+    margin: 15px;
+    border: 1px solid palevioletred;
+}
+.card .desc
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    background-color: #7a5dcd;
+}
+.buttonsTab
+{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: 30%;
+}
+.buttonsTab img
+{
+    filter: invert(1);
+    width: 23px;
+}
+.bottom
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
