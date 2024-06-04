@@ -173,3 +173,8 @@ input[type="text"]{
 {
     position: relative;
 }
+
+.currentCard
+{
+    background-color: black;
+}
