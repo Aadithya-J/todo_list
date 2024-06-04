@@ -1,8 +1,7 @@
 let add = document.querySelector(".mainicon");
-
-function getRequest(event)
+let submitBtn = document.querySelector("#submitBtn");
+function submit (event)
 {
-  event.preventDefault(); 
   const titleInput = document.getElementById("title");
   const title = titleInput.value;
   const cards = document.querySelectorAll(".desc");
