@@ -14,8 +14,6 @@ submitBtn.addEventListener('onclick',submit);
 add.addEventListener('click', (e) => {
   let place = document.querySelector(".left");
   document.querySelector(".pop-up").style.bottom = "50%";
-
-  // Create the new card element
   let newCard = document.createElement('div');
   newCard.classList.add('card');
   newCard.innerHTML = `
