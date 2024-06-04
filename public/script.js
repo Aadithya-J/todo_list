@@ -6,7 +6,8 @@ function submit (event)
   const title = titleInput.value;
   const cards = document.querySelectorAll(".desc");
   const lastCard = cards[cards.length - 1]; 
-  lastCard.innerHTML = `<h1>${title}</h1>`;
+  lastCard.innerHTML = `${title}`;
+  document.querySelector(".pop-up").style.bottom = "-50%";
 }
 add.addEventListener('click', (e) => {
     let place = document.querySelector(".left");
