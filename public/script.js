@@ -31,6 +31,9 @@ add.addEventListener('click', (e) => {
     currentCard = newCard;
     newCard.classList.add('currentCard');
     e.stopPropagation();
+    newCard.querySelector(".remove").addEventListener('click',(e) => {
+      newCard.remove();
+    })
   });
   newCard.click();
 
