@@ -15,7 +15,7 @@ const TaskSchema = new mongoose.Schema({
 const AllTaskSchema = new mongoose.Schema({
     allTasks : {
         type: [TaskSchema],
-        required: true,
+        default : [],
     }
 });
 
